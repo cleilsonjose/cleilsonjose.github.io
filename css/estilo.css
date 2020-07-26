@@ -1,24 +1,67 @@
-body{
-	background: #4169E1;
-	font: 16px Arial, Helvetica, sans-serif;
-}
-.centralizar{
-	text-align: center;
-}
-.imagemPerfil{
-	text-align: left;
-}
-.imagem{
-	border: 3px groove black;
-}
-#menu{
-	background: #c5c5b2;
-	padding: 18px;
-}
-a{
-	color: #4b566a;
+*{
+	margin: 0;
+	padding: 0;
+	list-style:none;
 	text-decoration: none;
-	font-weight: bold;
-	padding: 5px;
+}
+body{
+	font-family: "Roboto", sans-serif;
+	background: url(../img/computer.jpg) no-repeat;
 
+}
+main{
+	width: 100%;
+}
+header{
+	background-color: rgba(227, 142, 20);
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	padding: 10px 0;
+	font-size: 30px;
+}
+header a{
+	color: white;
+	padding-left: 10px;
+	border-left: 1px solid;
+}
+
+meter{
+	height: 50px;
+	width: 300px;
+}
+#sobre{ 
+	padding-top: 50px; 
+}
+ h2{		
+	text-align:center;
+	color: white;
+	background-color: #010101;
+	padding: 50px 0 0 20px;
+	font-size: 50px;
+}
+#tecnologias{
+
+}
+#projetos {
+	margin: 0px auto;
+}
+#projetos img{
+	margin:20px 30px;
+}
+
+.tudo{
+	padding:20px 0 20px 150px;
+	background-color: #010101;
+	color: white;
+}
+.direita{
+	display: inline;
+	margin-left: 30%;
+}
+.esquerda{
+	display: inline;
+	float: left;
+	width: 55%;
+	margin: 20px;
 }
