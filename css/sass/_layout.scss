@@ -5,8 +5,46 @@
   padding: 48px 16px;
 }
 
-@media screen and(max-width: 1200px){
+.hero{
+  height: 90vh;
+}
+
+.container{
+  max-width: 1220;
+  margin: 0 auto;
+  padding: 24px 16px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-item:nth-child(1){
+  flex-grow:3;
+
+  margin: 40px 0;
+}
+.container-item:nth-child(2){
+  flex-grow:1;
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+
+  img{
+    max-width: 400px;
+  }
+}
+
+@media screen and(max-width: 960px){
   .menu-left, .menu-right{
     display: none;
   }
+  .hero{
+    height: auto;
+  }
+  .container{
+    flex-direction: column;
+  }
 }
+
