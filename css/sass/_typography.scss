@@ -1,20 +1,29 @@
-h1, h2, h3, h4, h5, h6, p, a{
-  font-family:'Barlow Condensed', sans-serif;
-  color:$white-normal;
-  font-weight:400;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: 'Barlow Condensed', sans-serif;
+  color: $white-normal;
+  font-weight: 400;
 }
 
-a{
+a {
   text-decoration: none;
 }
-.link{
+
+.link {
   padding: 16px;
   font-size: 8px 24px;
-  
+
   transition: .5s ease;
   position: relative;
-  &::after{
-    content:"";
+
+  &::after {
+    content: "";
     display: block;
 
     position: absolute;
@@ -27,67 +36,76 @@ a{
     background-color: $white-normal;
   }
 
-  &:hover{
+  &:hover {
     opacity: .8;
 
-    &::after{
-      content:"";
+    &::after {
+      content: "";
       display: block;
-  
+
       position: absolute;
-      
+
       width: 80%;
-     
+
     }
   }
 }
 
-h1{
+h1 {
   font-size: 96px;
   line-height: 100%;
 }
 
-@media screen and(max-width: 960px){
-  h1{
+@media screen and(max-width: 960px) {
+  h1 {
     font-size: 64px;
   }
-  h2{
+
+  h2 {
     font-size: 48px;
   }
 }
-h2{
+
+h2 {
   font-size: 72px;
   line-height: 110%;
 }
-h3{
+
+h3 {
   font-size: 40px;
   line-height: 115%;
 }
-h4{
+
+h4 {
   font-size: 32px;
   line-height: 120%;
 }
-h5{
+
+h5 {
   font-size: 24px;
   line-height: 130%;
 }
-h6{
+
+h6 {
   font-size: 18px;
   line-height: 140%;
 }
 
-.mask{
-  background:linear-gradient(225deg, #2dc7ed 0%, #538bf6 50%);
+.mask {
+  background: linear-gradient(225deg, #2dc7ed 0%, #538bf6 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.text-center{
+
+.text-center {
   text-align: center;
 }
-.text-right{
+
+.text-right {
   text-align: right;
 }
-.square{
+
+.square {
   display: inline-block;
   margin-top: 64px;
 
@@ -97,7 +115,7 @@ h6{
 
   position: relative;
 
-  &::after{
+  &::after {
     content: '';
     display: block;
 
@@ -117,10 +135,11 @@ h6{
     border-radius: 4px;
     transition: .5s ease;
 
-}
-&:hover{
-  &::after{
-      transform: translate(5%, -15%) rotate(225deg);
   }
-}
+
+  &:hover {
+    &::after {
+      transform: translate(5%, -15%) rotate(225deg);
+    }
+  }
 }

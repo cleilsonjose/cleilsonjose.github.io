@@ -1,18 +1,19 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 @import 'sass/colors';
 @import 'sass/typography';
 
-body{
+body {
   width: 100%;
 
   background-color: $black-dark;
 }
 
-.border{
+.border {
   border: 1px solid red;
 }
 
