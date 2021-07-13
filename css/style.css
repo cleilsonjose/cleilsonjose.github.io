@@ -29,6 +29,7 @@ a {
 .link {
   padding: 16px;
   font-size: 8px 24px;
+  display: inline-block;
   -webkit-transition: .5s ease;
   transition: .5s ease;
   position: relative;
